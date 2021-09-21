@@ -9,3 +9,4 @@ print(Total_paid)
 
 Each_paid = Total_paid/people_count
 print('each person should pay:',round(Each_paid,2))
+#Changed

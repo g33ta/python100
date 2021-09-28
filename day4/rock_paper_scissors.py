@@ -25,7 +25,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-
+"""code written based on conditions of game and it is located under the program"""
 # person = int(input('Enter O or 1 or 2:'))
 # print(f"Your choice is {person}:")
 

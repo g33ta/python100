@@ -84,7 +84,7 @@ else:
     print("You lose")
 
 
-"""What are the rules of RPS?S
+"""What are the rules of RPS?
 
 Rock wins against scissors.
 Scissors win against paper.

@@ -9,4 +9,3 @@ result = sum/count
 #result = sum/len(students_heights)
 print(round(result))
     
-

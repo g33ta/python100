@@ -42,12 +42,4 @@ def caesar(txt,shft,direction1):
                 end_text = end_text+letter
     return (f"The {direction1}ed text is {end_text}")
 print(caesar(text,shift,direction))
-
-
-
-
-
-
-
-
 #TODO-2: Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.

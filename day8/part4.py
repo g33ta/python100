@@ -39,10 +39,6 @@ while True:
         print('Exiting the program')
         break
     
-
-
-
-
 #TODO-1: Import and print the logo from art.py when the program starts.
 
 #TODO-4: Can you figure out a way to ask the user if they want to restart the cipher program?

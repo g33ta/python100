@@ -1,4 +1,5 @@
 from art import logo
+import os
 
 def adding(n1,n2):
     return n1+n2
@@ -31,8 +32,8 @@ def calculator():
             num1 = answer
             continue
         else:
-            next_calc == 'n'.lower(
+            next_calc == 'n'.lower()
             break
+    os.system('cls')
     calculator()
-        
-print(calculator())
+calculator()       

@@ -21,7 +21,8 @@ def calculator():
     }
     for operation in operations:
         print(operation)
-    while True:
+    End_of_calc = True
+    while End_of_calc == True:
         symble = input("Enter any above symble:")
         num2 = int(input("Enter a next number:"))
         calculation = operations[symble]
@@ -33,7 +34,7 @@ def calculator():
             continue
         else:
             next_calc == 'n'.lower()
-            break
-    os.system('cls')
-    calculator()
+            End_of_calc = False
+            os.system('cls')
+            calculator()
 calculator()       
